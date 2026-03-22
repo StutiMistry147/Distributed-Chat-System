@@ -5,7 +5,7 @@ class WebSocketService {
   }
 
   connect(channelId, token, onMessage) {
-    const url = `ws://localhost:8000/api/ws/${channelId}?token=${token}`
+    const url = `${import.meta.env.VITE_WS_URL}/api/ws/${channelId}?token=${token}`
     
     this.socket = new WebSocket(url)
     this.messageHandler = onMessage
