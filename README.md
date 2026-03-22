@@ -72,3 +72,5 @@ authentication is complete, under all possible concurrent execution orderings. S
 explored 254 states and 383 transitions with zero assertion violations, formally proving 
 the authentication gate holds even under adversarial conditions. The model is located in 
 the formal/ directory.
+
+<ins>Note: Live demo requires local setup. The AI features (semantic search, channel summarization) depend on locally loaded ML models, and the database is seeded with local data. Clone the repo and follow the setup instructions to run it fully.</ins>
