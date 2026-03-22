@@ -25,6 +25,5 @@ faiss-cpu>=1.7.4, <2.0.0
 redis>=5.0.1,<6.0.0
 
 sentence-transformers>=2.2.2
-torch==2.5.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 google-generativeai>=0.3.0
 numpy>=1.24.3
