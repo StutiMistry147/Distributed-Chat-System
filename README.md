@@ -33,6 +33,9 @@ stream and processes messages in the background. It embeds every incoming messag
 sentence-transformers for semantic search, and generates channel summaries on demand via 
 the Gemini API. If the AI sidecar goes down, core chat continues unaffected.
 
+<img width="1410" height="1202" alt="image" src="https://github.com/user-attachments/assets/b62f936e-3632-43c8-9106-2f0f6cf93f53" />
+
+
 ## Tech Stack
 | Layer        | Technology                                    |
 |--------------|-----------------------------------------------|
