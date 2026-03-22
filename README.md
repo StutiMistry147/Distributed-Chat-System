@@ -5,6 +5,7 @@ The system supports multi-server architecture where messages are broadcast acros
 instances via Redis pub/sub, ensuring no message is lost under concurrent load. Extends 
 core chat functionality with an AI sidecar for semantic message search and channel 
 summarization, both running as decoupled async services that never block message delivery.
+
 (_Note: Live demo requires local setup. The AI features (semantic search, channel summarization) depend on locally loaded ML models, and the database is seeded with local data. Clone the repo and follow the setup instructions to run it fully._)
 
 ## Features
