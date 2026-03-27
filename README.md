@@ -7,8 +7,7 @@ The system supports multi-server message broadcast via Redis pub/sub and extends
 core chat with an AI sidecar for semantic search and channel summarization, running
 as a fully decoupled async service that never blocks message delivery.
 
-_> Live demo requires local setup, the AI features depend on locally loaded ML models
-> and a seeded local database. Clone and follow the setup instructions below._
+_> Live demo requires local setup, the AI features depend on locally loaded ML models and a seeded local database. Clone and follow the setup instructions below._
 
 ## Features
 - Real-time messaging via WebSockets with presence tracking
