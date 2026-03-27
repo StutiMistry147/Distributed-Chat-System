@@ -1,4 +1,4 @@
-# 💬 Distributed Chat System 🗨️
+# Distributed Chat System
 ## Overview
 A full-stack distributed messaging platform built with FastAPI, React, and Redis,
 with WebSocket authentication safety formally verified using the SPIN Model Checker.
